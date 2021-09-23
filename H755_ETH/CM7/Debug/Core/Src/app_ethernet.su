@@ -1,0 +1,2 @@
+app_ethernet.c:45:6:ethernet_link_status_updated	16	static
+app_ethernet.c:79:6:DHCP_Thread	40	static

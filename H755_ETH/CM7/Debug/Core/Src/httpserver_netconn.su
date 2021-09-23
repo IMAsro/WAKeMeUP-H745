@@ -1,0 +1,8 @@
+httpserver_netconn.c:107:6:fillData	24	static
+httpserver_netconn.c:150:6:create_json_payload	96	static
+httpserver_netconn.c:214:6:serve_get_data_endpoint	2040	static
+httpserver_netconn.c:234:6:serve_post_data_endpoint	392	static
+httpserver_netconn.c:296:6:serve_404	552	static
+httpserver_netconn.c:317:13:http_server_serve	64	static
+httpserver_netconn.c:393:13:http_server_netconn_thread	32	static
+httpserver_netconn.c:433:6:http_server_netconn_init	544	static
