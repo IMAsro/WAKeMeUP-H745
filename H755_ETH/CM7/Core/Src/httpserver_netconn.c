@@ -363,15 +363,16 @@ static void http_server_serve(struct netconn *conn)
 					serve_404(conn);
 				}
 			}
+            else if(strncmp(buf, "POST /data/led/", 15) == 0)
+            {
+           	  serve_post_data_endpoint(conn, buf, buflen);
+            }
+             else
+             {
+       		serve_404(conn);
+             }
+
         }
-      }
-      else if(strncmp(buf, "POST /data/led/", 15) == 0)
-      {
-    	  serve_post_data_endpoint(conn, buf, buflen);
-      }
-      else
-      {
-		serve_404(conn);
       }
 
 

@@ -1,8 +1,8 @@
-sensor.c:6:9:getSignedVal	24	static
-sensor.c:11:6:hdc1080_init	40	static
-sensor.c:44:9:hdc1080_start_measurement	48	static
-sensor.c:70:6:LSM9DS1_Init	32	static
-sensor.c:133:6:LSM9DS1_ReadGyr	40	static
-sensor.c:152:6:LSMD_Gyr2Ori	48	static
-sensor.c:162:6:LSM9DS1_ReadAcc	40	static
-sensor.c:182:6:LSM9DS1_ReadMag	40	static
+../Core/Src/sensor.c:6:9:getSignedVal	24	static
+../Core/Src/sensor.c:11:6:hdc1080_init	40	static
+../Core/Src/sensor.c:44:9:hdc1080_start_measurement	48	static
+../Core/Src/sensor.c:70:6:LSM9DS1_Init	32	static
+../Core/Src/sensor.c:133:6:LSM9DS1_ReadGyr	40	static
+../Core/Src/sensor.c:152:6:LSMD_Gyr2Ori	48	static
+../Core/Src/sensor.c:162:6:LSM9DS1_ReadAcc	40	static
+../Core/Src/sensor.c:182:6:LSM9DS1_ReadMag	40	static

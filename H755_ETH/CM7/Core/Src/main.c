@@ -22,12 +22,14 @@
 #include "cmsis_os.h"
 #include "lwip.h"
 
+
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "httpserver_netconn.h"
 #include "stcpserver_netconn.h"
 #include "common.h"
 #include "ringbuff/ringbuff.h"
+
 
 /* USER CODE END Includes */
 
@@ -193,6 +195,7 @@ Error_Handler();
   /* USER CODE BEGIN 2 */
   uint8_t * iniMsg = "HW init done starting threads...\r\n";
   HAL_UART_Transmit(&huart3, iniMsg, strlen(iniMsg), 100);
+  HAL_UART_Transmit(&huart3, "ahoj\n", 5, 500);
   /* USER CODE END 2 */
 
   /* USER CODE BEGIN RTOS_MUTEX */

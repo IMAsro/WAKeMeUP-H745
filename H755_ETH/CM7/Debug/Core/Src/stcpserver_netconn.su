@@ -1,2 +1,2 @@
-stcpserver_netconn.c:49:13:tcpecho_thread	48	static
-stcpserver_netconn.c:93:1:tcpecho_init	16	static
+../Core/Src/stcpserver_netconn.c:49:13:tcpecho_thread	48	static
+../Core/Src/stcpserver_netconn.c:93:1:tcpecho_init	16	static
